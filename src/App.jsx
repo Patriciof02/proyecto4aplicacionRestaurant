@@ -36,8 +36,10 @@ function App() {
       <div>
       <h1>Formulario de Contacto</h1>
         <ContactForm />
-      </div>
+      </div>  
+      <h1>Reserva de Restaurante</h1>
       <div class='reserva'>
+        
         <Reserva/>
       </div>
       </div>

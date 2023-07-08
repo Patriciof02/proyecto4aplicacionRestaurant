@@ -12,8 +12,9 @@ function Reserva() {
 
   return (
     <div>
-      <h1>Reserva de Restaurante</h1>
+    
       <input
+      id='nombrereserva'
         type="text"
         placeholder="Nombre"
         value={nombre}
