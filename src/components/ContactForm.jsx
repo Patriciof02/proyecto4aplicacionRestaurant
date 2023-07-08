@@ -1,19 +1,23 @@
-import React, { useState } from 'react';
+import React, { useState } from 'react'
 import '../assets/styles/ContactForm.css'
+// import { db } from '../firebase/firebase'
 
 const ContactForm = () => {
-  const [name, setName] = useState('');
-  const [email, setEmail] = useState('');
-  const [message, setMessage] = useState('');
+  const [name, setName] = useState('')
+  const [email, setEmail] = useState('')
+  const [message, setMessage] = useState('')
 
-  const handleSubmit = (e) => {
-    e.preventDefault();
+  const handleSubmit = async (e) => {
+    e.preventDefault()
     // Aquí puedes agregar la lógica para enviar el formulario
-    console.log('Formulario enviado');
+  //  await db.collection('formulario').add(info)
+
+
+    console.log('Formulario enviado')
     // También puedes reiniciar los campos del formulario si lo deseas
-    setName('');
-    setEmail('');
-    setMessage('');
+    setName('')
+    setEmail('')
+    setMessage('')
   };
 
   return (

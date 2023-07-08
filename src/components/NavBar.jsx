@@ -28,13 +28,13 @@ const Navbar = () => {
           <img class='logo' src={logo} alt="logo" />
         </li>
         <li>
-          <a href="/">Inicio</a>
+          <a href="#">Inicio</a>
         </li>
         <li>
           <a href="/reservas">Reservas</a>
         </li>
         <li>
-          <a href="/contacto">Contacto</a>
+          <a href="#name">Contacto</a>
         </li>
         {loggedIn ? (
           <li>

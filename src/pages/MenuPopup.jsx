@@ -14,7 +14,7 @@ const MenuPopup = () => {
       {isOpen && (
         <div className="popup">
           <div className="popup-content">
-          <h2>Menú Italiano</h2>
+          <h2 id='menu'>Menú Italiano</h2>
       <ul>
         <li>
           <h3>Pizza Margherita</h3>

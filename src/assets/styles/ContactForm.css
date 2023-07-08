@@ -14,7 +14,7 @@
 .formulario input{
 border-radius: 2px;
 border:1px;
-width: 200px;
+width: 250px;
 box-shadow: 1px 1px 3px rgb(56, 55, 55)
 
 
@@ -29,7 +29,7 @@ box-shadow: 1px 1px 3px rgb(56, 55, 55)
     justify-content:space-between
 }
 .formulario textarea{
-    width: 200px;
+    width: 250px;
     height: 100px;
     border-radius: 2px;
     border-radius: 2px;

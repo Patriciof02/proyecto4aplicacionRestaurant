@@ -37,13 +37,20 @@ background: linear-gradient(to bottom right, white, rgb(242, 226, 203));
 
 }
 .cuadro2{
-justify-content: center;
+justify-content:center;
 text-align: justify;
+
 width: 400px;
 margin:20px;
 }
 .primeralinea{
 display: flex;
+flex-wrap: wrap;
+justify-content: center;
+align-items: center;
+}
+.segundalinea{
+  display: flex;
 flex-wrap: wrap;
 justify-content: center;
 align-items: center;
@@ -83,6 +90,29 @@ align-items: center;
   
   
 }
+
+.reserva{
+  display: flex;
+  flex-direction: row;
+  margin: 10px;
+  gap: 5px;
+  margin-bottom: 50px;
+   border-radius: 10px;
+   padding: 30px;
+   box-shadow: 4px 3px 10px rgb(56, 55, 55);
+   background-color: rgb(243, 241, 241);
+
+}
+.reserva input {
+  border-radius: 2px;
+  height: 30px;
+  gap: 5px;
+  margin:5px;
+  border: 1px;
+  box-shadow: 1px 1px 3px rgb(56, 55, 55)
+}
+
+
 button{
   box-shadow: 1px 1px 3px rgb(56, 55, 55)
 }

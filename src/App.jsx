@@ -5,6 +5,7 @@ import ContactForm from './components/ContactForm'
 import Navbar from './components/NavBar'
 import MenuPopup from './pages/MenuPopup'
 import Footer from './components/Footer'
+import Reserva from './components/Reserva'
 
 
 function App() {
@@ -25,15 +26,20 @@ function App() {
        </div>
      
        <div class='cuadro2'>
-       <h1> Nuestra esencia  </h1>
+       <h1> Nuestra Esencia  </h1>
         <p> Un encantador restaurante italiano con una auténtica cocina que deleita los sentidos. Desde la pasta casera hasta las deliciosas pizzas al horno de leña, cada bocado es una explosión de sabores. El ambiente acogedor y el servicio amable hacen que cada visita sea inolvidable.</p>
        </div>
      
      
       </div>
+      <div class='segunda linea'>
       <div>
       <h1>Formulario de Contacto</h1>
         <ContactForm />
+      </div>
+      <div class='reserva'>
+        <Reserva/>
+      </div>
       </div>
      </section>
 
