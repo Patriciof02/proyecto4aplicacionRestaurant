@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import '../assets/styles/NavBar.css'
 import '../pages/MenuPopup.jsx'
+import logo from '../assets/images/icono2.png'
 
 const Navbar = () => {
   const [loggedIn, setLoggedIn] = useState(false);
@@ -23,11 +24,11 @@ const Navbar = () => {
   return (
     <nav>
       <ul>
-        <li>
-          <a href="/">Inicio</a>
+      <li>
+          <img class='logo' src={logo} alt="logo" />
         </li>
         <li>
-          <a href="MenuPopup">Menú</a>
+          <a href="/">Inicio</a>
         </li>
         <li>
           <a href="/reservas">Reservas</a>

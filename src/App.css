@@ -5,6 +5,9 @@
   justify-content: center;
 align-items: center;
 }
+.logo{
+  width: 50px;
+}
 .botonpopup{
   display: flex;
   flex-direction: column;
