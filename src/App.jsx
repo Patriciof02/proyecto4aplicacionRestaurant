@@ -16,8 +16,8 @@ function App() {
       <div> 
         <Navbar/>
       </div>
-      <MenuPopup />
       <section class='cuerpo'>
+        <MenuPopup />
       <div class='primeralinea'>
        <div class='cuadro1'>
      

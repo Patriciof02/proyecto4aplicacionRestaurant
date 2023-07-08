@@ -1,9 +1,12 @@
+
 .cuerpo{
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
   justify-content: center;
 align-items: center;
+background: linear-gradient(to bottom right, white, rgb(242, 226, 203));
+
 }
 .logo{
   width: 50px;
@@ -13,6 +16,7 @@ align-items: center;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin: 20px;
 
 
 }
@@ -70,14 +74,17 @@ align-items: center;
 
 
 
-
 .row{
   display: flex;
   
   gap: 20px;
   justify-content: space-around;
-  background-color: rgb(249, 229, 200);
+  background: linear-gradient(to right,rgb(249, 229, 200) , rgb(242, 226, 203));
   
+  
+}
+button{
+  box-shadow: 1px 1px 3px rgb(56, 55, 55)
 }
 
 @media (max-width: 662px){
@@ -85,6 +92,10 @@ align-items: center;
     height: 240px;
     width: 360px;
 
+  }
+  .row{
+    flex-direction: column;
+    text-align: center;
   }
 
 }

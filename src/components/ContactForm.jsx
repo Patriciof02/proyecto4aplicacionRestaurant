@@ -42,6 +42,7 @@ const ContactForm = () => {
       <div>
         <label htmlFor="message">Mensaje</label>
         <textarea
+          type='text'
           id="message"
           value={message}
           onChange={(e) => setMessage(e.target.value)}
