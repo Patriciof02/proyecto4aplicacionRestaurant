@@ -1,0 +1,12 @@
+nav {
+    background-color: #B11116;
+}
+ul {
+    display: flex;
+    list-style: none;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 0px;
+    padding: 5px;
+}

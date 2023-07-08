@@ -1,0 +1,12 @@
+.formulario {
+    background-color: white;
+    display: flex;
+   flex-direction: column;
+   text-align: center;
+   align-items: center;
+   gap: 8px;
+
+}
+.formulario label{
+    margin-right: 10px;
+}
