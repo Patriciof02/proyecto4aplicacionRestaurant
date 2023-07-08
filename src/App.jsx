@@ -4,6 +4,7 @@ import './App.css'
 import ContactForm from './components/ContactForm'
 import Navbar from './components/NavBar'
 import MenuPopup from './pages/MenuPopup'
+import Footer from './components/Footer'
 
 
 function App() {
@@ -35,6 +36,8 @@ function App() {
         <ContactForm />
       </div>
      </section>
+
+     <Footer />
       
    </div>
   )

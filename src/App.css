@@ -70,6 +70,16 @@ align-items: center;
 
 
 
+
+.row{
+  display: flex;
+  
+  gap: 20px;
+  justify-content: space-around;
+  background-color: rgb(249, 229, 200);
+  
+}
+
 @media (max-width: 662px){
   .cuadro1 {
     height: 240px;
